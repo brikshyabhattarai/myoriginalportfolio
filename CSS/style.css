@@ -5,7 +5,9 @@
     font-family: sans-serif ;
   }
   body {
-    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    color: black;
     scroll-behavior: inherit;
   }
 .head{
@@ -88,6 +90,13 @@ h2{
 }
 .jjj{
     margin-right:35% ;
+}
+.last{
+    display: flex;
+    margin-left: 4% ;
+}
+.nn{
+    margin-left:50% ;
 }
 
 
