@@ -1,28 +1,28 @@
-* {
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif ;
-  }
-  body {
-    justify-content: center;
-    align-items: center;
-    color: black;
-    scroll-behavior: inherit;
+    width: 100% ;
+    height: 100vh;
+    margin-top: 13% ;
   }
 .head{
     width: 100%;
     height:100vh;
-    background-color:white;
 }
 nav{
     display: flex;
-    width: 100%;
-    margin: 20%;
-    margin-left: 2% ;
     align-items: center;
+    background-color: #111;
+    padding: 15px 40px;
+    color: white;
+    display: flex;
+    width: 100%;
+    /* margin: 20%; */
     position: fixed;
-    margin-top: -150px ;
+    margin-top: -190px ;
 }
 ul{
     display: flex;
@@ -35,7 +35,7 @@ ul{
 }
 a{
     text-decoration: none;
-    color: rgb(21, 14, 14);
+    color:white;
     font-weight: bolder;
 }
 nav ul li a:hover{
@@ -43,11 +43,12 @@ nav ul li a:hover{
 }
 .detail{
     margin-left: 2%;
-    margin-top: 13%;
+    margin-top: 9%;
+    width: 100% ;
+    display: flex;
 }
 h2{
     font-size:40px ;
-    color:black;
     margin-bottom:20px ;
 }
 .detail p{
@@ -61,13 +62,11 @@ h2{
     border-radius: 5px;
     display: inline-block;
 }
-.detail{
-    display: flex;
-}
 .ii a i{
     padding:5% ;
 }
-.ii a i:hover{
+.ii a i:hove
+    r{
     scale: 1.4;
 }
 
@@ -91,12 +90,19 @@ h2{
 .jjj{
     margin-right:35% ;
 }
+.jjj pre{
+    color: white ;
+    line-height: 1.6 ;
+}
 .last{
     display: flex;
     margin-left: 4% ;
 }
 .nn{
     margin-left:50% ;
+}
+footer .last .mm .nn{
+    margin: 10% ;
 }
 
 
