@@ -16,22 +16,27 @@ nav{
     display: flex;
     align-items: center;
     background-color: #111;
-    padding: 15px 40px;
+    padding: 20px 40px;
     color: white;
     display: flex;
     width: 100%;
-    /* margin: 20%; */
     position: fixed;
-    margin-top: -190px ;
+    margin-top: -185px ;
 }
+
 ul{
     display: flex;
-    gap: 40px;
+     gap: 15%;
 }
+
  li{
     color: white;
     list-style:none ;
-    margin:10px 20px ;
+    margin:20px 22px ;
+}
+.mainn{
+    display: flex;
+    gap: 40%;
 }
 a{
     text-decoration: none;
@@ -40,19 +45,6 @@ a{
 }
 nav ul li a:hover{
     color: red;
-}
-.detail{
-    margin-left: 2%;
-    margin-top: 9%;
-    width: 100% ;
-    display: flex;
-}
-h2{
-    font-size:40px ;
-    margin-bottom:20px ;
-}
-.detail p{
-    color:rgb(94, 49, 49) ;
 }
 .cv a{
     background-color: #212121;
@@ -65,34 +57,8 @@ h2{
 .ii a i{
     padding:5% ;
 }
-.ii a i:hove
-    r{
+.ii a i:hover{
     scale: 1.4;
-}
-
-.first{
-    width:50% ;
-}
-.sec img{
-    width: 45%;
-    height: 74%;
-    margin-bottom:7%px;
-    margin-left:13%;
-}
-#meee{
-    display: flex;
-    margin-left: 2% ;
-}
-.iii img{
-    width: 55%;
-    height: 85%;
-}
-.jjj{
-    margin-right:35% ;
-}
-.jjj pre{
-    color: white ;
-    line-height: 1.6 ;
 }
 .last{
     display: flex;
@@ -100,6 +66,70 @@ h2{
 }
 .nn{
     margin-left:50% ;
+}
+.detail{
+    width: 100%;
+    display: flex;
+}
+.first{
+    width: 50%;
+    margin-left:3%;
+}
+.first pre{
+    line-height: 1.4;
+    font-size: x-large;
+}
+.sec{
+    width: 50%;
+}
+#myimage{
+    height:  auto;
+    width:75%;
+    margin: 10px;
+}
+.meee{
+    margin: 3% ;
+    display: flex;
+}
+.iii img{
+    height: 85%;
+    width: 55%;
+    margin: 10px;
+}
+.jjj{
+    margin-right: 10%;
+    line-height: 1.6 ;
+    font-size: x-large;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+}
+.card {
+    background-color: #273850;
+    width: 250px;
+    height: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.icon {
+    font-size: 50px;
+    margin-top: 10px;
+}
+h2 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+p{
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.5;
 }
 footer .last .mm .nn{
     margin: 10% ;
