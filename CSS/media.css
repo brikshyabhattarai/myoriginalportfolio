@@ -1,0 +1,121 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  scroll-margin-top: 90px; /* fixed navbar offset */
+}
+
+@media (max-width: 1024px) {
+
+  .hero {
+    padding: 120px 5%;
+    gap: 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about img {
+    width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .nav-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 110px 6% 60px;
+  }
+
+  .hero-image img {
+    width: 240px;
+    margin-bottom: 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+
+  /* ABOUT */
+  .about {
+    flex-direction: column;
+    padding: 60px 6%;
+  }
+
+  .about img {
+    width: 200px;
+  }
+
+  /* SKILLS */
+  .skill-cards {
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* FOOTER */
+  .footer-contact {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .brand-name {
+    font-size: 18px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .btn {
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+
+  .socials a {
+    width: 42px;
+    height: 42px;
+    font-size: 14px;
+  }
+}
+
